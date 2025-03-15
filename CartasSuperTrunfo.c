@@ -28,6 +28,32 @@ int main() {
     int numerodepontosturisticos;
     float PIB;
 
+    printf("Digite seu estado: \n");
+    scanf("%s", &estado);
+
+    printf("Digite seu codigo:\n");
+    scanf("%s", &codigo);
+
+    printf("Digite o nome da cidade:\n");
+    scanf("%s", &nomedacidade);
+
+    printf("Digite sua população:\n");
+    scanf("%d", &população);
+
+    printf("Digite a area:\n");
+    scanf("%f", &area);
+
+    printf("Digite os numerodepontosturisticos:\n");
+    scanf("%d", &numerodepontosturisticos);
+
+    printf("Digite o PIB:\n");
+    scanf("%f", &PIB);
+
+
+    printf("Nome do Estado: %s - Codigo: %s\n", estado, codigo);
+    printf("Nome da Cidade: %s - População: %d\n", nomedacidade, população);
+    printf("Tamanho da area: %f - Numero de pontos turisticos: %d - PIB: %f\n",area, numerodepontosturisticos, PIB);
+
 
     return 0;
 }
