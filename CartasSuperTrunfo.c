@@ -33,8 +33,8 @@ int main(){
 
 
     printf("Nome do Estado: %s - Codigo: %s\n", estado, codigo);
-    printf("Nome da Cidade: %s - População: %d\n", nome_da_cidade, populacao;
-    printf("Tamanho da area: %f - Numero de pontos turisticos: %d - PIB: %f\n",area, numero_de_pontos_turisticos PIB);
+    printf("Nome da Cidade: %s - População: %d\n", nome_da_cidade, populacao);
+    printf("Tamanho da area: %f - Numero de pontos turisticos: %d - PIB: %f\n",area, numero_de_pontos_turisticos, PIB);
 
 
     return 0;
