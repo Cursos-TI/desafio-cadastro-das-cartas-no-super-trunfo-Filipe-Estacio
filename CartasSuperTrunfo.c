@@ -20,7 +20,7 @@ int main(){
     scanf("%s", &nomedacidade);
 
     printf("Digite sua população:\n");
-    scanf("%d", &população);
+    scanf("%d", &populacao);
 
     printf("Digite a area:\n");
     scanf("%f", &area);
